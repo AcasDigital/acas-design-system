@@ -16,16 +16,13 @@ const fractal = module.exports = require('@frctl/fractal').create();
 fractal.set('project.title', 'Acas Component Pattern Library');
 
 /*
- * Tell Fractal where to look for components.
+ * Tell Fractal where to look for files
  */
 fractal.components.set('path', path.join(__dirname, 'src/components'));
-
-/*
- * Tell Fractal where to look for documentation pages.
- */
 fractal.docs.set('path', path.join(__dirname, 'src/docs'));
+fractal.web.set('static.path', path.join(__dirname, 'assets'));
 
 /*
- * Tell the Fractal web preview plugin where to look for static assets.
+ * Tell Fractal where to build to
  */
-fractal.web.set('static.path', path.join(__dirname, 'assets'));
+fractal.web.set('builder.dest', __dirname + '/build');
