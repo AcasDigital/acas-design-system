@@ -30,11 +30,11 @@ You can calculate your [holiday entitlement](https://www.gov.uk/calculate-your-h
 
 You can base the calculation on:
 
-days or hours worked per week
-casual or irregular hours
-annualised hours – where you work a certain number of hours across the year but have some flexibility around which hours
-compressed hours – working full-time hours over fewer days
-shifts
+* days or hours worked per week
+* casual or irregular hours
+* annualised hours – where you work a certain number of hours across the year but have some flexibility around which hours
+* compressed hours – working full-time hours over fewer days
+* shifts
 
 ## The leave year
 
@@ -74,13 +74,14 @@ This ‘relevant agreement’ should be in your contract or in writing.
 
 ## Call the helpline
 
-You can [call the helpline](Link to helpline page) if you want to talk to someone about problems with your holiday entitlement.
+You can [find steps to resolve a work disagreement online](Link to ‘advice’ or ‘steps’ page).
+
+You can also [call the helpline](Link to helpline page) if you want to talk to someone about problems with your holiday entitlement.
 
 A trained adviser will explain your options and give you more information such as:
 
-steps you can take to resolve an issue with your employer
-what to do if you’re not getting holiday you’re owed
+* steps you can take to resolve an issue with your employer
+* what to do if you’re not getting holiday you’re owed
 
-You can also [find steps to resolve a work disagreement online](Link to ‘advice’ or ‘steps’ page).
 
 [Print] or [download] this page.
