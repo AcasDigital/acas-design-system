@@ -13,6 +13,7 @@ const fractal = module.exports = require('@frctl/fractal').create();
 // Use the acas theme
 const acasTheme = require('@frctl/acas-fractal-theme');
 fractal.web.theme(acasTheme);
+
 /*
  * Give your project a title.
  */
