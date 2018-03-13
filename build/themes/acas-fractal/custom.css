@@ -1,6 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+/* Main header */
 .Header {
   background-color: #008C95;
   color: #fff;
@@ -9,7 +11,39 @@ body {
     fill: #fff;
 }
 
+/* Left-hand navigation */
+.Tree-title {
+  font: normal 0.875rem/1.66667 "Open Sans", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  -webkit-padding-start: 1rem;
+  padding-inline-start: 1rem;
+  margin-bottom: 0.5rem;
+  color: rgba(0,0,0, 0.85);
+}
+.Tree-collectionLabel {
+  font: normal 0.75rem/1.66667 "Open Sans", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  margin-bottom: 0.15rem;
+  color: rgba(0, 0, 0, 0.75);
+}
+[dir="ltr"] .Tree-collectionLabel span {
+  padding-left: 1rem;
+}
+.Tree-item:last-child {
+  padding-bottom: 1rem;
+}
+[dir="ltr"] .Tree-depth-2 .Tree-entityLink {
+  padding-left: 2.5rem;
+}
 
+/*-------
+Custom Code
+-------*/
+
+/* Colour blocks in branding document */
 .color-panel {
   border-radius: 50%;
   color: #fff;
@@ -20,6 +54,7 @@ body {
   width: 10em;
   text-align: center;
 }
+
 .color-panel h2 {
   color: #fff;
 }
