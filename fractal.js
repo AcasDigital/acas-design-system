@@ -10,10 +10,13 @@ const path = require('path');
  */
 const fractal = module.exports = require('@frctl/fractal').create();
 
+// Use the acas theme
+const acasTheme = require('@frctl/acas-fractal-theme');
+fractal.web.theme(acasTheme);
 /*
  * Give your project a title.
  */
-fractal.set('project.title', 'Acas Component Pattern Library');
+fractal.set('project.title', 'Acas Component Library');
 
 /*
  * Tell Fractal where to look for files

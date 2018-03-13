@@ -1,0 +1,44 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.Header {
+  background-color: #008C95;
+  color: #fff;
+}
+.Header-navToggle svg {
+    fill: #fff;
+}
+
+
+.color-panel {
+  border-radius: 50%;
+  color: #fff;
+  float: left;
+  padding: 3em 0;
+  margin: 1em;
+  height: 10em;
+  width: 10em;
+  text-align: center;
+}
+.color-panel h2 {
+  color: #fff;
+}
+
+#acas-lime {
+  background-color: #CEDC00;
+}
+#acas-teal {
+  background-color: #008C95;
+}
+#acas-blue {
+  background-color: #005EB8;
+}
+#acas-purple {
+  background-color: #772583;
+}
+#acas-maroon {
+  background-color: #910048;
+}
+#acas-grey {
+  background-color: #4D4D4D;
+}
