@@ -1,5 +1,5 @@
 ---
-title: Acas Component Pattern Library
+title: Acas Component Library
 ---
 This is the Acas component library.
 

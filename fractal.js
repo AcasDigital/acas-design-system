@@ -24,7 +24,7 @@ fractal.set('project.title', 'Acas Component Library');
  */
 fractal.components.set('path', path.join(__dirname, 'src/components'));
 fractal.docs.set('path', path.join(__dirname, 'src/docs'));
-fractal.web.set('static.path', path.join(__dirname, 'assets'));
+fractal.web.set('static.path', path.join(__dirname, 'src/assets'));
 
 /*
  * Tell Fractal where to build to
