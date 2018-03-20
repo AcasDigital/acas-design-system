@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  font-weight: $font-weight-body;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: $acas-teal;
+}
