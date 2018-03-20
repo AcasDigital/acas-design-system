@@ -1,0 +1,37 @@
+.btn-cta {
+  background: $acas-teal;
+  display: block;
+  font-family: $font-family-headers;
+  font-weight: $font-weight-medium;
+  color: $white;
+  padding: 1em 0.5em;
+  margin: 1em 0;
+  text-align: center;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.btn-cta--print, .btn-cta--download {
+  padding: 0 2em;
+  &:after {
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2rem;
+  }
+}
+
+.btn-cta--print {
+  &:after {
+    background-image: url();
+  }
+}
+
+
+.btn-cta--download {
+  &:after {
+    background-image: url();
+  }
+}
