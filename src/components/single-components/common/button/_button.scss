@@ -2,9 +2,9 @@
   background: $acas-teal;
   display: block;
   font-family: $font-family-headers;
-  font-weight: $font-weight-medium;
+  font-weight: $font-weight-bold;
   color: $white;
-  padding: 1em 0.5em;
+  padding: .75em;
   margin: 1em 0;
   text-align: center;
   text-decoration: none;
@@ -12,8 +12,8 @@
 }
 
 .btn-cta--print, .btn-cta--download {
-  padding: 1rem;
-  padding-right: 3rem;
+  padding-right: 2.5rem;
+  padding-left: 1rem;
   position: relative;
   text-transform: capitalize;
   &:after {
