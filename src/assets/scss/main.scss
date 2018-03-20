@@ -8,9 +8,12 @@
 /* Base Styles */
 @import 'base';
 
-/* Components */
+/* Base Components */
 @import '../../components/single-components/base/headers/headers';
 @import '../../components/single-components/base/links/links';
+
+/* Common Components */
 @import '../../components/single-components/common/button/button';
 @import '../../components/single-components/common/callout/callout';
 @import '../../components/single-components/common/feedback/feedback';
+@import '../../components/single-components/common/related/related';
