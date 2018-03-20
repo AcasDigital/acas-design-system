@@ -1,6 +1,8 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-headers;
   font-weight: $font-weight-headers;
+  margin-top: .25em;
+  margin-bottom: .75em;
 }
 
 h1 {
@@ -21,7 +23,7 @@ h1 {
 
 h2 {
   color: $acas-teal;
-  font-size: 2rem;
+  font-size: 1.36rem;
   position: relative;
   padding-left: .75rem;
   &:before {
@@ -37,15 +39,15 @@ h2 {
 
 h3 {
   color: $acas-teal;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 h5 {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
 h6 {
