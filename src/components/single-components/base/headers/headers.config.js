@@ -9,7 +9,7 @@ headerSizes.forEach((headerSize, i) => {
 });
 
 module.exports = {
-  title: 'Headings',
+  title: 'Headers',
   collated: true,
   status: 'wip',
   variants: headerVariants,
