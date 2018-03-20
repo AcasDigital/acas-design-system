@@ -1,12 +1,10 @@
 .block-feedback {
   color: $white;
-  padding: 0.25rem 1rem;
   &:after {
     content: "";
     background-color: $acas-teal;
     display: block;
-    margin: auto;
-    max-width: 30em;
+    max-width: 26rem;
     height: 1.5rem;
     width: 100%;
   }
@@ -14,9 +12,11 @@
 
 .block-feedback__question {
   background: $acas-teal;
-  margin: auto;
-  padding: 0.25rem 1rem;
-  width: fit-content;
+  display: inline-block;
+  left: 3rem;
+  min-width: 20rem;
+  padding: 0.5rem 1rem 0.25rem;
+  position: relative;
 }
 .block-feedback__answer {
   color: $white;
