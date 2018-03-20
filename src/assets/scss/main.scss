@@ -1,9 +1,15 @@
+/* Variables */
 @import 'colors';
 @import 'variables';
+
+/* Browser Reset */
 @import 'reset';
 
+/* Base Styles */
 @import 'base';
 
+/* Components */
 @import '../../components/single-components/base/headers/headers';
 @import '../../components/single-components/base/links/links';
 @import '../../components/single-components/common/button/button';
+@import '../../components/single-components/common/callout/callout';
