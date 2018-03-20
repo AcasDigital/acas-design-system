@@ -3,5 +3,12 @@
   "version": "0.1.0",
   "dependencies": {
     "@frctl/fractal": "^1.1.7"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-autoprefixer": "latest",
+    "grunt-contrib-sass": "latest",
+    "grunt-contrib-watch": "latest",
+    "load-grunt-tasks": "latest"
   }
 }

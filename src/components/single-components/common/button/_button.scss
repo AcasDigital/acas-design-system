@@ -1,0 +1,43 @@
+.btn-cta {
+  background: $acas-teal;
+  display: block;
+  font-family: $font-family-headers;
+  font-weight: $font-weight-medium;
+  color: $white;
+  padding: 1em 0.5em;
+  margin: 1em 0;
+  text-align: center;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.btn-cta--print, .btn-cta--download {
+  padding: 1rem;
+  padding-right: 3rem;
+  position: relative;
+  text-transform: capitalize;
+  &:after {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: 50% 50%;
+    height: 100%;
+    position: absolute;
+    right: 0.5rem;
+    top: 0;
+    width: 2rem;
+  }
+}
+
+.btn-cta--print {
+  &:after {
+    background-image: url(../images/icons/icon-print.png);
+  }
+}
+
+
+.btn-cta--download {
+  &:after {
+    background-image: url(../images/icons/icon-download.png);
+  }
+}
