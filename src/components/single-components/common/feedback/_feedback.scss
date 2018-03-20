@@ -1,9 +1,29 @@
 .block-feedback {
-  background: $acas-teal;
   color: $white;
+  padding: 0.25rem 1rem;
+  &:after {
+    content: "";
+    background-color: $acas-teal;
+    display: block;
+    margin: auto;
+    max-width: 30em;
+    height: 1.5rem;
+    width: 100%;
+  }
 }
 
+.block-feedback__question {
+  background: $acas-teal;
+  margin: auto;
+  padding: 0.25rem 1rem;
+  width: fit-content;
+}
 .block-feedback__answer {
+  color: $white;
   font-weight: $font-weight-bold;
+  padding: 0 .25rem;
   text-decoration: none;
+  &:last-child {
+    padding-right: 0;
+  }
 }
