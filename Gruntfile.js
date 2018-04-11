@@ -7,7 +7,7 @@ module.exports = function(grunt) {
           style:'compressed'
         },
         files: {
-          'src/assets/css/main.css' : 'src/assets/scss/main.scss'
+          'src/assets/css/style.css' : 'src/scss/style.scss'
         }
       }
     },
@@ -20,7 +20,7 @@ module.exports = function(grunt) {
     },
     watch: {
       css: {
-        files: ['src/assets/scss/*.scss', 'src/components/**/*.scss'],
+        files: ['src/scss/*.scss', 'src/components/**/*.scss'],
         tasks: ['sass', 'autoprefixer']
       }
     }

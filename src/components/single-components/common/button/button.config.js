@@ -1,4 +1,4 @@
-const states = ['print', 'download'];
+const states = ['print', 'download', 'helpline'];
 const variants = [];
 
 states.forEach(s => {

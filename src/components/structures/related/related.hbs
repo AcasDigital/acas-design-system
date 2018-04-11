@@ -1,0 +1,17 @@
+<section id="block-relatedcontentblock" class="block-related-content-block">
+  <nav class="nav-related" aria-labelledby="nav-related__title">
+    <ul>
+      {{> @headers--three text="Related Content" size="3"}}
+      <!-- Add ID to header-->
+      {{#each items}}
+        {{#if related-item}}
+          <li>
+            <a href="{{related-item.href}}" target="{{related-item.target}}">
+              {{related-item.text}}
+            </a>
+          </li>
+        {{/if}}
+      {{/each}}
+    </ul>
+  </nav>
+</section>
