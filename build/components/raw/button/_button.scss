@@ -35,6 +35,7 @@
   }
 }
 
+
 .btn-cta--download {
   &:after {
     background-image: url(../images/icons/icon-download.png);
@@ -42,8 +43,8 @@
 }
 
 .btn-cta--helpline {
-  max-width: 26rem;
-  padding: 1em 3em 1em 1em;
+  max-width: 30rem;
+  padding: 1em 4em 1em 1em;
   position: relative;
   text-align: left;
   p {
