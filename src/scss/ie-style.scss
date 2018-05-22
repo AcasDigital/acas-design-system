@@ -6,7 +6,7 @@ $compile-IE: true;
 
 // Reset Stylesheet
 @import 'reset';
-
+ 
 // Mixin Stylesheet
 @import 'mixins';
 
@@ -16,14 +16,20 @@ $compile-IE: true;
 /* Base Styles */
 @import 'base';
 
+// Admin (Drupal) styles
+@import 'admin';
+
 /* Base Components */
-@import '../components/single-components/base/headers/headers';
-@import '../components/single-components/base/links/links';
+@import '../components/single-components/global/headers/headers';
+@import '../components/single-components/global/links/links';
 
 /* Common Components */
+@import '../components/single-components/common/beta-banner/beta-banner';
 @import '../components/single-components/common/button/button';
 @import '../components/single-components/common/callout/callout';
 @import '../components/single-components/common/feedback/feedback';
+@import '../components/single-components/common/pagination/pagination';
+@import '../components/single-components/common/search/search';
 
 /* Structures */
 @import '../components/structures/related/related';
