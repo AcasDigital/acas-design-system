@@ -16,9 +16,12 @@ $compile-IE: true;
 /* Base Styles */
 @import 'base';
 
+// Admin (Drupal) styles
+@import 'admin';
+
 /* Base Components */
-@import '../components/single-components/base/headers/headers';
-@import '../components/single-components/base/links/links';
+@import '../components/single-components/global/headers/headers';
+@import '../components/single-components/global/links/links';
 
 /* Common Components */
 @import '../components/single-components/common/button/button';
@@ -26,4 +29,4 @@ $compile-IE: true;
 @import '../components/single-components/common/feedback/feedback';
 
 /* Structures */
-@import '../components/structures/related/related';
+@import '../components/structures/related/related'; 
