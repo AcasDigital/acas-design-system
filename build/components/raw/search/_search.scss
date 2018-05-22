@@ -1,0 +1,63 @@
+#block-exposedformsolr-search-contentpage-1-3 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+#views-exposed-form-solr-search-content-page-1 {
+  margin-top: 0.25em;
+  .form-group {
+    float: left;
+  }
+  .form-item {
+    width: 75%;
+  }
+  .form-actions {
+    width: 25%;
+  }
+  input, #edit-submit-solr-search-content {
+    border: none;
+    height: 2.25em;
+    padding: .25em .5em;
+    width: 100%;
+  }
+  #edit-submit-solr-search-content {
+    background-color: $gray-dark;
+    color: $white;
+    margin: 0;
+  }
+  .form--inline {
+    border: 2px solid $gray-dark;
+    border-radius: 2px;
+    display: inline-block;
+    &.active {
+      border: 2px solid $acas-teal;
+      #edit-submit-solr-search-content {
+        background-color: $acas-teal;
+      }
+    }
+  }
+  &:active, &:focus, &:hover {
+    #edit-submit-solr-search-content {
+      background-color: $acas-teal;
+    }
+    .form--inline {
+      border: 2px solid $acas-teal;
+    }
+  }
+}
+
+@include bp(MD) {
+  #block-exposedformsolr-search-contentpage-1-3 {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  #header-main {
+    #views-exposed-form-solr-search-content-page-1 {
+      float: right;
+    }
+  }
+  #header-front-page {
+    #views-exposed-form-solr-search-content-page-1 {
+      float: left;
+    }
+  }
+}
