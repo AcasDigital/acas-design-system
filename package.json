@@ -2,6 +2,7 @@
   "name": "acas-component-pattern-library",
   "version": "0.1.0",
   "dependencies": {
+    "@acasdigital/acas-fractal-theme": "^1.0.0",
     "@frctl/fractal": "^1.1.7"
   },
   "devDependencies": {
