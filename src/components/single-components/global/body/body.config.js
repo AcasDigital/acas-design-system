@@ -1,8 +1,0 @@
-module.exports = {
-  title: 'Body Text',
-  collated: true,
-  status: 'wip',
-  context: {
-    "paragraph-text": "Lorem ipsum dolor sit amet, accusamus mnesarchum ex quo. Solet soleat assueverit has cu, sit saepe mentitum inciderint et. Dicant integre adolescens id sea, exerci sensibus nam te. Eam ea adhuc euripidis laboramus, lobortis reprehendunt id usu. Est eius idque ex, ut tale voluptaria honestatis has. Eu mel habemus insolens."
-  }
-};
