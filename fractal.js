@@ -17,7 +17,7 @@ fractal.web.theme(acasTheme);
 /*
  * Give your project a title.
  */
-fractal.set('project.title', 'Acas Component Library');
+fractal.set('project.title', 'Acas Design System');
 
 /*
  * Tell Fractal where to look for files
