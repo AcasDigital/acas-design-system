@@ -1,40 +1,48 @@
-h1, h2, h3, h4, h5, h6 {
+h1, .h1, 
+h2, .h2, 
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
   &, a {
-    color: $acas-teal;
+    color: acas-color("teal");
     font-family: $font-family-headers;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-  a {
-    &:hover, &:focus {
-      color: $acas-teal;
-      text-decoration: underline;
-    }
   }
 }
 
-h1, h2, {
-  border-left: 5px solid $acas-lime;
-  padding-left: 20px;
+h1, .h1 {
+  border-left: 5px solid acas-color("lime");
+  line-height: 1.25;
+  position: relative;
+  padding-left: 15px;
 }
 
 h1 {
-  font-size: 2.42em;
+  @extend %margin-bottom-10x;
+  &, .h1 {
+    font-size: 1.68em;
+  }
 }
 
 h2 {
-  font-size: 1.36em;
+  @extend %margin-bottom-6x;
+  &, .h2 {
+    font-size: 1.36em;
+  }
 }
 
 h3 {
-  &, a {
-    color: $acas-teal;
+  @extend %margin-bottom-4x;
+  &, .h3 {
     font-size: 1em;
   }
 }
 
 h4 {
-  font-size: 1em;
+  @extend %margin-bottom-3x;
+  &, .h4 {
+    font-size: 1em;
+  }
 }
 
 h5 {
@@ -45,7 +53,16 @@ h6 {
   font-size: 1em;
 }
 
-.header-no-border {
-  border-left: none;
-  padding-left: 0;
+@include bp(md) {
+  h1, .h1 {
+    font-size: 2.42em;
+  }
+  h2, .h2 {
+    font-size: 1.68em;
+  }
+  .teaser {
+    h2 {
+      font-size: 1.36em;
+    }
+  }
 }

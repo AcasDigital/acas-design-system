@@ -1,12 +1,18 @@
 .nav-related {
-  border-top: .25rem solid $acas-lime;
+  @extend %padding-vertical-2x;
+
   max-width: 20em;
-  padding: .5em 0;
-  ul {
-    a {
-      color: $gray-dark;
-      display: inline-block;
-      margin: .5em 0;
+  .nav-related__list {
+    @extend .text-small;
+    
+    ul {
+      @extend %list-no-format;
+      a {
+        @extend %margin-bottom-2x;
+        
+        color: acas-color("gray-dark");
+        display: inline-block;
+      }
     }
   }
-} 
+}
