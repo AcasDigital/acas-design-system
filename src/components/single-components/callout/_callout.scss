@@ -1,0 +1,69 @@
+.inset-text {
+  @extend %margin-bottom-6x;
+  
+  border-left: 7px solid acas-color("lime");
+  color: acas-color("gray-dark");
+  font-size: $font-size-large;
+  max-width: 30em;
+  padding: .25em .75em;
+}
+
+.callout {
+  @extend .inset-text;
+}
+
+.phone-callout {
+  background-color: acas-color("teal-dark");
+  display: block;
+  min-width: 100%;
+  padding: 1.25em 4em 1.25em 1.25em;
+  position: relative;
+  text-align: left;
+  a {
+    &:hover, &:focus {
+      text-decoration: none;
+    }
+  }
+  &:hover, &:focus {
+    cursor: pointer;
+    a {
+      text-decoration: none;
+    }
+  }
+  &, a {
+    color: acas-color("white");
+  }
+  p {
+    @extend %margin-bottom-0x;
+  }
+
+  &:after {
+    content: "";
+    background-image: url(../images/icons/icon-telephone.png);
+    background-repeat: no-repeat;
+    background-size: 1.5em auto;
+    background-position: 50% 50%;
+    height: 100%;
+    position: absolute;
+    right: .5em;
+    top: 0;
+    width: 3em;
+  }
+  
+}
+
+section#block-currentwebsiteblock {
+  @include clearfix;
+  @extend .col-xs-12;
+  @extend .col-sm-7;
+  @extend .col-md-6;
+}
+
+.inset-text--beta {
+  @extend .text-tiny;
+  @extend %margin-top-8x;
+  margin-bottom: -30px;
+  p {
+    @extend %margin-bottom-0x;
+  }
+}

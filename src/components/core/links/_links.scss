@@ -1,0 +1,69 @@
+a {
+  color: acas-color("teal-dark");
+  text-decoration: underline;
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+  &:focus {
+    background: acas-color("teal-dark");
+    color: acas-color("white");
+  }
+}
+
+%link-no-decoration {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+%links-black {
+  color: acas-color("black");
+  &:focus {
+    color: acas-color("white");
+  }
+}
+
+%link-add-focus-hover {
+  &:hover  {
+    background: acas-color("teal-dark");
+    color: acas-color("white");
+  }
+}
+
+%link-no-focus {
+  &:hover, &:focus  {
+    background: transparent;
+  }
+}
+
+/* External Links */
+a {
+  &.link-external {
+    background-image: url(../images/icons/icon-external-link.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 12px auto;
+    padding-right: 15px;
+    &:focus {
+      background-image: url(../images/icons/icon-external-link-white.svg);
+    }
+  }
+
+  &.share {
+    &.link-external {
+      background-image: none;
+    }
+  }
+}
+
+#print-preview,
+.path-guide-print,
+.path-page-print,
+.print {
+  a {
+    &.link-external {
+      background-image: none;
+    }
+  }
+}
