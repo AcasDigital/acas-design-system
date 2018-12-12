@@ -3,7 +3,12 @@
   "version": "0.1.0",
   "dependencies": {
     "@acasdigital/acas-fractal-theme": "^1.0.0",
-    "@frctl/fractal": "^1.1.7"
+    "@acasdigital/acas-frontend": "^1.5.6",
+    "@frctl/fractal": "^1.1.7",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^2.0.0",
+    "grunt-contrib-uglify": "^4.0.0",
+    "grunt-shell": "^2.1.0"
   },
   "devDependencies": {
     "grunt": "latest",
