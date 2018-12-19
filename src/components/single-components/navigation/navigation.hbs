@@ -1,0 +1,29 @@
+<nav id="block-acas-main-menu" role="navigation" aria-labelledby="block-acas-main-menu-menu">
+
+  <ul id="menu-primary" class="menu-primary" role="menubar">
+    {{#each items}}
+      {{#if navigation-item}}
+
+        <li class="menu-primary__item {{#if navigation-item.links}}menu-primary__item--has-dropdown{{/if}}" aria-haspopup="true" aria-expanded="false" role="menuitem">
+
+          <a class="menu-primary__link" title="{{navigation-item.title}}" href="#">
+            {{navigation-item.title}}
+          </a>
+
+          {{#if navigation-item.links}}
+            <ul class="menu-secondary" role="menu" aria-hidden="true">
+              {{#each navigation-item.links}}
+                <li class="menu-secondary__item" role="menuitem">
+                  <a class="menu-secondary__link" title="{{this}}" href="#">{{this}}</a>
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
+
+        </li>
+      {{/if}}
+
+    {{/each}}
+  </ul>
+
+</nav>
