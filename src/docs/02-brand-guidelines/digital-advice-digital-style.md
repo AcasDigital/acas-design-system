@@ -17,5 +17,7 @@ The brand font is Century Gothic. We use the bold cut in the brand teal for all 
 
 A number of six colours make up the colour scheme for acas brand. We kept the primary two - lime and teal - and added the grey for the online designs.
 
+<img src='/images/style-guide/image-usage.png'>
+
 Acas online platform hosts a vast amount of content, we advice avoiding unnecessary decoration, only use images if there’s a real user neeed.
 
