@@ -3,7 +3,7 @@
 module.exports = function (grunt) {
 
   const assets = 'src/assets/';
-  const acasdigital_frontend = 'node_modules/@acasdigital/acas-frontend/';
+  const acasdigital_frontend = 'node_modules/@acas-digital-innovation/acas-frontend/';
 
   grunt.initConfig({
     shell: {
