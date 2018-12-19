@@ -1,11 +1,11 @@
-# acas-component-library
+# acas-design-system
 
-This is the Acas component library.
+This is the Acas design system.
 
-## About the Library
+## About the System
 
 ### Tools and Design
-The library is built on Fractal (http://www.fractal.build) and has been customised with a theme using the Acas digital brand guidelines. The theme can be found at its development location here: https://github.com/AcasDigital/acas-fractal-theme.
+The system is built on Fractal (http://www.fractal.build) and has been customised with a theme using the Acas digital brand guidelines. The theme can be found at its development location here: https://github.com/AcasDigital/acas-fractal-theme.
 
 ### Hosting Location:
 The library is currently in development and is hosted at https://acas-component-library.herokuapp.com/.
@@ -19,7 +19,7 @@ You will need to have NodeJS and NPM installed globally (https://nodejs.org/en/)
 
 To install the necessary dependencies for the library, use the command line to enter the folder, e.g.
 
-``` cd /Users/acas/acas-component-library/ ```
+``` cd /Users/acas/acas-design-system/ ```
 
 And then run ` npm install `.
 
