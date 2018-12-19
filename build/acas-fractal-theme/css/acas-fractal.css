@@ -57,7 +57,7 @@
 }
 
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body {
@@ -99,7 +99,7 @@ a:hover, a:focus {
 
 /* Left-hand navigation */
 .Tree-title {
-  font: 1.2rem/1.66667 "Century Gothic Bold", Helvetica, Arial, sans-serif;
+  font: 1.1rem/1.66667 "Century Gothic Bold", Helvetica, Arial, sans-serif;
   letter-spacing: 0.075em;
   text-transform: capitalize;
   -webkit-padding-start: 1rem;
