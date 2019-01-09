@@ -5,10 +5,17 @@
     "@acas-digital-innovation/acas-fractal-theme": "^1.1.1",
     "@acas-digital-innovation/acas-frontend": "^1.0.2",
     "@frctl/fractal": "^1.1.7",
+    "atob": "^2.1.0",
+    "cryptiles": "^4.1.2",
+    "deep-extend": "^0.5.1",
+    "ejs": "^2.5.5",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "^2.0.0",
     "grunt-contrib-uglify": "^4.0.0",
-    "grunt-shell": "^2.1.0"
+    "grunt-shell": "^2.1.0",
+    "hoek": "^2.4.1",
+    "randomatic": "^3.0.0",
+    "sshpk": "^1.13.2"
   },
   "devDependencies": {
     "grunt": "latest",
