@@ -1,0 +1,43 @@
+<style>
+  article.teaser.alternative h2 {
+    font-size: 1em;
+  }
+  article.teaser.alternative .article__wrapper {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  article.teaser.alternative .article__content {
+    padding: 0 20px;
+  }
+  @media (min-width: 768px) {
+    article.teaser.alternative .article__wrapper {
+      min-height: 12em;
+    }
+    article.teaser.alternative .article__content {
+      padding: 0 20px;
+    }
+  }
+</style>
+
+{{#each items}}
+  {{#if landing-block}}
+
+    <article role="article" class="details-page teaser alternative">
+      <a href="#" rel="bookmark">
+        <div class="article__wrapper">
+          <h2>
+            <span>{{landing-block.title}}</span>
+          </h2>
+          <div class="article__content">
+            <div class="field field--name-field-summary field--type-text-with-summary field--label-hidden field--item">
+              {{landing-block.description}}
+            </div>
+          </div>
+        </div>
+      </a>
+    </article>
+
+  {{/if}}
+{{/each}}

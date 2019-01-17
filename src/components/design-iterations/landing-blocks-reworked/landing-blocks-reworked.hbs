@@ -1,0 +1,31 @@
+<style>
+  article.teaser-reworked {
+    min-height: 6em;
+  }
+  article.teaser-reworked h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  article.teaser-reworked .field--name-field-summary {
+    font-size: .85em;
+  }
+</style>
+
+{{#each items}}
+  {{#if landing-block}}
+
+  <article class="details-page teaser teaser-reworked">
+    <div class="article-wrapper">
+      <a href="#" rel="bookmark">
+        <h2>
+          <span>{{landing-block.title}}</span>
+        </h2>
+      </a>
+      <div class="field field--name-field-summary field--type-text-with-summary field--label-hidden field--item">
+        {{landing-block.description}}
+      </div>
+    </div>
+  </article>
+
+  {{/if}}
+{{/each}}
