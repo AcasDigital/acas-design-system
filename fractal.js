@@ -11,7 +11,7 @@ const path = require('path');
 const fractal = module.exports = require('@frctl/fractal').create();
 
 // Use the acas theme
-const acasTheme = require('@acasdigital/acas-fractal-theme');
+const acasTheme = require('@acas-digital-innovation/acas-fractal-theme');
 fractal.web.theme(acasTheme);
 
 /*
