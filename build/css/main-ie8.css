@@ -1,8 +1,8 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=c1147d89-914f-4272-8a71-8f8a560ca674");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, .chapters--search h2, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -75,9 +75,9 @@ table {
 .invalid-feedback, .error-summary .error-summary__list {
   font: 500 1em "Open Sans Semibold", sans-serif; }
 
-.text-small, .block-beta-banner, .breadcrumb, ul.breadcrumb--search, .eu-cookie-compliance-banner .eu-cookie-compliance-message .text, .eu-cookie-compliance-banner .eu-cookie-compliance-buttons button, .form-description, .upload-wrapper .description, .fieldset-wrapper .description, .webform-element-description, .text-count-wrapper, .form-name, .form-progress, .text--progress, .guidance-text, .text--guidance, .prescribed .text--guidance, .guidance-text--light, #block-prescribed-notificationpreviewfootermessage,
+.text-small, .block-beta-banner, .breadcrumb, ul.breadcrumb--search, .eu-cookie-compliance-banner .eu-cookie-compliance-message p, .eu-cookie-compliance-banner .eu-cookie-compliance-buttons button, .form-description, .upload-wrapper .description, .fieldset-wrapper .description, .webform-element-description, .text-count-wrapper, .form-name, .form-progress, .text--progress, .guidance-text, .text--guidance, .prescribed .text--guidance, .guidance-text--light, #block-prescribed-notificationpreviewfootermessage,
 #block-conciliationpreviewfootermessage, #feedback-form, #feedback-form .feedback-question-wrapper,
-#feedback-form .feedback-close-wrapper, #feedback-form-section form .help-block, #feedback-form form .help-block, .block-in-this-section-block .section__wrapper ul, article.teaser .article__content, .btn-save, .nav-related .nav-related__list, form#user-login-form .description, .prescribed .guidance-text {
+#feedback-form .feedback-close-wrapper, #feedback-form-section form .help-block, #feedback-form form .help-block, .block-in-this-section-block .section__wrapper ul, .block-in-this-section-block h2, article.teaser .article__content, .btn-save, .nav-related .nav-related__list, form#user-login-form .description, .prescribed .guidance-text {
   font-size: 0.85rem; }
 
 .text-tiny, .inset-text--beta, #footer__inner {
@@ -302,12 +302,12 @@ a {
   .link--back:hover, .back--link:hover {
     text-decoration: none; }
 
-.breadcrumb li a, ul.breadcrumb--search li a, #footer__inner a, .error-summary .error-summary__list a, a.menu-secondary__link, .chapters--search a {
+.breadcrumb li a, ul.breadcrumb--search li a, .error-summary .error-summary__list a, #footer__inner a, a.menu-secondary__link, .nav-related .nav-related__list ul a, .chapters--search a {
   color: #000; }
-  .breadcrumb li a:focus, ul.breadcrumb--search li a:focus, #footer__inner a:focus, .error-summary .error-summary__list a:focus, a.menu-secondary__link:focus, .chapters--search a:focus {
+  .breadcrumb li a:focus, ul.breadcrumb--search li a:focus, .error-summary .error-summary__list a:focus, #footer__inner a:focus, a.menu-secondary__link:focus, .nav-related .nav-related__list ul a:focus, .chapters--search a:focus {
     color: #fff; }
 
-#header-main #block-sitebranding a:hover, #header-main #block-sitebranding a:focus {
+.footer-logo:hover, #header-main #block-sitebranding a:hover, .footer-logo:focus, #header-main #block-sitebranding a:focus {
   background: transparent; }
 
 /* External Links */
@@ -406,12 +406,12 @@ button,
 a.share.link-external {
   padding-right: 0px; }
 
-.alert > p + p, #block-searchblock, #views-exposed-form-solr-search-content-page-1, #views-exposed-form-search-content-page-1, #block-exposedformsearch-contentpage-1, #search-form,
+.eu-cookie-compliance-banner .eu-cookie-compliance-buttons, .alert > p + p, .find-address-wrapper .find_address, #block-searchblock, #views-exposed-form-solr-search-content-page-1, #views-exposed-form-search-content-page-1, #block-exposedformsearch-contentpage-1, #search-form,
 #feedback-form .feedback-question-wrapper,
 #feedback-form .feedback-close-wrapper {
   margin-top: 5px; }
 
-.nav-justified > li > a, .nav-tabs.nav-justified > li > a,
+.block-in-this-section-block h2, .nav-justified > li > a, .nav-tabs.nav-justified > li > a,
 #feedback-form .feedback-question-wrapper,
 #feedback-form .feedback-close-wrapper {
   margin-bottom: 5px; }
@@ -420,13 +420,16 @@ ul li, ol li, .block-in-this-section-block .section__wrapper ul li,
 #footer__inner a {
   padding-top: 5px; }
 
+.example-block,
 #footer__inner a {
   padding-bottom: 5px; }
 
+.find-address-wrapper .find_address,
 .menu-primary__icon,
 .view-solr-search-content .views-row {
   padding-left: 5px; }
 
+.find-address-wrapper .find_address,
 .menu-primary__icon,
 .view-solr-search-content .views-row {
   padding-right: 5px; }
@@ -435,7 +438,7 @@ ul li, ol li, .block-in-this-section-block .section__wrapper ul li,
 .invalid-feedback {
   margin-top: 10px; }
 
-.fieldset-legend, .control-label, #feedback-form-section .panel .control-label, #feedback-form-section .panel .panel-title, #feedback-form .panel .control-label, #feedback-form .panel .panel-title, .nav-related .nav-related__list ul a, .view-empty p, #block-exposedformsolr-search-contentpage-1-3,
+.example-block ul, .example-block p, .fieldset-legend, .control-label, #feedback-form-section .panel .control-label, #feedback-form-section .panel .panel-title, #feedback-form .panel .control-label, #feedback-form .panel .panel-title, .nav-related .nav-related__list ul a, .view-empty p, #block-exposedformsolr-search-contentpage-1-3,
 .fieldgroup legend,
 .invalid-feedback {
   margin-bottom: 10px; }
@@ -446,9 +449,10 @@ ul li, ol li, .block-in-this-section-block .section__wrapper ul li,
 .eu-cookie-compliance-banner .eu-cookie-compliance-buttons button:first-child {
   margin-right: 10px; }
 
-.invalid-feedback, .js-pager__items .pager__item a {
+.eu-cookie-compliance-banner .eu-cookie-compliance-buttons button, .invalid-feedback, .js-pager__items .pager__item a {
   padding: 10px; }
 
+.example-block,
 .region.region-top-bar,
 .nav-related {
   padding-top: 10px; }
@@ -458,6 +462,7 @@ ul li, ol li, .block-in-this-section-block .section__wrapper ul li,
 .nav-related {
   padding-bottom: 10px; }
 
+.example-block,
 .beta-icon,
 #header-main #block-acas-main-menu,
 .previous .details-wrapper,
@@ -470,11 +475,14 @@ ul li, ol li, .block-in-this-section-block .section__wrapper ul li,
 .next .details-wrapper {
   padding-right: 10px; }
 
-h4, .block-in-this-section-block h2 {
+h4 {
   margin-bottom: 15px; }
 
-.find-address-wrapper a, .print-download-email .modal .x {
+.print-download-email .modal .x {
   margin-left: 15px; }
+
+.find-address-wrapper input, .find-address-wrapper a {
+  margin-right: 15px; }
 
 .guidance-text,
 .text--guidance,
@@ -509,10 +517,10 @@ a.link-external {
 .webform-wizard-pages-link,
 form#user-login-form #edit-submit,
 .eu-cookie-compliance-banner .eu-cookie-compliance-content,
-#footer__inner ul,
 .alert,
 #modal .title-wrapper .title,
 #modal .spinner-wrapper,
+#footer__inner ul,
 .print-download-email .modal .body-wrapper,
 .print-download-email .modal .icon,
 .path-webform header#block-acas-page-title,
@@ -523,7 +531,7 @@ form#user-login-form #edit-submit,
 .prescribed .webform-wizard-pages-link {
   margin-top: 20px; }
 
-h3, .chapters--search h2, .form-description, .upload-wrapper .description, .fieldset-wrapper .description, .webform-element-description, .text-count-wrapper, .fieldgroup .form-group, .webform-preview .form-group, .error-summary .error-summary__title, .js-pager__items, #block-searchblock, form#user-login-form .form-item, .page-node-type-details-page article, .page-node-type-support-page article,
+h3, .chapters--search h2, .example-block, .form-description, .upload-wrapper .description, .fieldset-wrapper .description, .webform-element-description, .text-count-wrapper, .fieldgroup .form-group, .webform-preview .form-group, .error-summary .error-summary__title, .js-pager__items, #block-searchblock, form#user-login-form .form-item, .page-node-type-details-page article, .page-node-type-support-page article,
 .btn-primary,
 .btn-secondary,
 .webform-button--preview,
@@ -532,10 +540,10 @@ h3, .chapters--search h2, .form-description, .upload-wrapper .description, .fiel
 .webform-wizard-pages-link,
 form#user-login-form #edit-submit,
 .eu-cookie-compliance-banner .eu-cookie-compliance-content,
-#footer__inner ul,
 .alert,
 #modal .title-wrapper .title,
 #modal .spinner-wrapper,
+#footer__inner ul,
 .print-download-email .modal .body-wrapper,
 .print-download-email .modal .icon,
 .path-webform header#block-acas-page-title,
@@ -556,9 +564,11 @@ form#user-login-form #edit-submit,
 .error-summary, #feedback-form-section form, #feedback-form form, .print-download-email .modal .title-wrapper, .print-download-email .btn-panel, .node-preview-container {
   padding: 20px; }
 
+.find-address-wrapper .find_address,
 article.teaser .article__wrapper {
   padding-top: 20px; }
 
+.find-address-wrapper .find_address,
 article.teaser .article__wrapper {
   padding-bottom: 20px; }
 
@@ -589,7 +599,7 @@ article.teaser .article__wrapper {
 .webform-container-type-details .panel-body {
   margin-top: 30px; }
 
-ul, ol, h2, .link--back, .back--link, .inset-text, .callout, article.teaser, .secondary-page-navigation,
+ul, ol, h2, .link--back, .back--link, .inset-text, .callout, #address_results, article.teaser, .secondary-page-navigation,
 .webform-container-type-details .panel-body {
   margin-bottom: 30px; }
 
@@ -600,6 +610,7 @@ ul, ol, .webform-container-type-details .panel-body {
 .view-empty {
   padding-top: 30px; }
 
+.ajax-progress.ajax-progress-throbber,
 .view-solr-search-content .views-row,
 .view-empty {
   padding-bottom: 30px; }
@@ -609,9 +620,6 @@ ul, ol, .webform-container-type-details .panel-body {
 
 .next .text {
   padding-right: 30px; }
-
-.eu-cookie-compliance-banner .eu-cookie-compliance-buttons {
-  margin-top: 35px; }
 
 .inset-text--beta, .secondary-page-navigation,
 main.main__content {
@@ -628,9 +636,6 @@ article.landing-page.full p {
 h1, .block-in-this-section-block, #block-homepageblock,
 #block-block-landingpagesblock {
   margin-bottom: 50px; }
-
-.eu-cookie-compliance-banner .eu-cookie-compliance-message .title {
-  margin-right: 50px; }
 
 .js-pager__items, .page-node-type-page h2,
 .page-node-type-support-page h2,
@@ -815,11 +820,7 @@ form#user-login-form [disabled]#edit-submit {
     max-width: 100%; }
   .eu-cookie-compliance-banner .eu-cookie-compliance-message {
     max-width: 100%; }
-    .eu-cookie-compliance-banner .eu-cookie-compliance-message .title {
-      display: inline-block;
-      font-family: "Century Gothic Bold", "AppleGothic", sans-serif;
-      vertical-align: middle; }
-    .eu-cookie-compliance-banner .eu-cookie-compliance-message .text {
+    .eu-cookie-compliance-banner .eu-cookie-compliance-message p {
       display: inline-block;
       font-family: "Open Sans", sans-serif;
       vertical-align: middle; }
@@ -830,46 +831,11 @@ form#user-login-form [disabled]#edit-submit {
     color: #007C85;
     font-family: "Century Gothic Bold", "AppleGothic", sans-serif;
     min-width: 8em;
-    padding: .5em;
-    padding-right: 2em;
-    position: relative; }
-    .eu-cookie-compliance-banner .eu-cookie-compliance-buttons button:after {
-      display: block;
-      width: 0;
-      height: 0;
-      border-style: solid;
-      border-color: transparent;
-      -webkit-clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-      clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
-      border-width: 5px 0 5px 10px;
-      border-left-color: inherit;
-      content: "";
-      border-color: #007C85;
-      position: absolute;
-      margin: auto;
-      bottom: 1px;
-      top: 4px;
-      right: 1em; }
-    .eu-cookie-compliance-banner .eu-cookie-compliance-buttons button:hover, .eu-cookie-compliance-banner .eu-cookie-compliance-buttons button:focus {
-      background: #007C85;
-      color: #fff;
-      border: 1px solid #fff; }
-      .eu-cookie-compliance-banner .eu-cookie-compliance-buttons button:hover:after, .eu-cookie-compliance-banner .eu-cookie-compliance-buttons button:focus:after {
-        border-color: #fff; }
+    position: relative;
+    text-align: center; }
 
-.footer {
-  border-top: 5px solid #007C85;
-  background: #F7F7F7;
-  padding: 2em 0; }
-
-.footer-logo {
-  max-width: 10rem; }
-
-#footer__inner a {
-  display: inline-block; }
-
-#footer__inner ul {
-  margin: 0; }
+.example-block {
+  border-left: 15px solid #cacaca; }
 
 .alert {
   border: 1px solid transparent;
@@ -953,6 +919,7 @@ select {
   background: #fff;
   height: 2.5em; }
 
+/* Ajax Loader */
 /* Postal Code */
 .form-item-claimant-address-postal-code input,
 .form-item-respondant-address-postal-code input {
@@ -969,8 +936,9 @@ select {
 .find-address-wrapper input, .find-address-wrapper a {
   display: inline-block;
   max-width: 12em; }
-.find-address-wrapper a {
-  padding: .275em 1em; }
+
+#address_results select {
+  max-width: 100%; }
 
 /* Form control layout */
 .form-inline {
@@ -1251,6 +1219,20 @@ select {
 #block-conciliationpreviewfootermessage {
   color: #999; }
 
+.footer {
+  border-top: 5px solid #007C85;
+  background: #F7F7F7;
+  padding: 2em 0; }
+
+.footer-logo img {
+  max-width: 10rem; }
+
+#footer__inner a {
+  display: inline-block; }
+
+#footer__inner ul {
+  margin: 0; }
+
 #feedback-form {
   background: #007C85;
   color: #fff;
@@ -1317,11 +1299,16 @@ select {
 
 .block-in-this-section-block {
   clear: left; }
+  .block-in-this-section-block .section__wrapper ul li {
+    padding-left: 25px; }
+    .block-in-this-section-block .section__wrapper ul li:before {
+      content: "— ";
+      margin-left: -25px;
+      padding-right: 5px; }
   .block-in-this-section-block h2 {
     border-left: none;
     color: #4d4d4d;
     font-family: "Open Sans", sans-serif;
-    font-size: 1em;
     padding-left: 0; }
     .block-in-this-section-block h2:before {
       display: none; }
@@ -1367,6 +1354,17 @@ article.teaser .article__content {
 article.teaser .article__wrapper {
   min-height: 12em; }
 
+article.teaser.alternative h2 {
+  font-size: 1em; }
+article.teaser.alternative .article-wrapper {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+@media (min-width: 768px) {
+  article.teaser.alternative .article__wrapper {
+    min-height: 12em; } }
 #header-main #block-acas-main-menu {
   background-color: #F7F7F7; }
 
@@ -1560,8 +1558,11 @@ li.menu-primary__item.menu-primary__item--has-dropdown a.menu-primary__link:afte
 .previous,
 .next {
   display: block;
-  width: 75%;
-  color: #000; }
+  width: 75%; }
+  .previous, .previous:focus,
+  .next,
+  .next:focus {
+    color: #000; }
   .previous .title,
   .next .title {
     font-size: 0.85rem; }
@@ -1646,9 +1647,9 @@ li.menu-primary__item.menu-primary__item--has-dropdown a.menu-primary__link:afte
   display: none; }
 
 .btn-save {
-  color: #007C85;
+  color: #000;
   display: block;
-  padding: .25em 0 .25em 3em;
+  padding: .25em 0 .25em 2em;
   position: relative; }
   .btn-save:before {
     content: "";
@@ -1657,18 +1658,24 @@ li.menu-primary__item.menu-primary__item--has-dropdown a.menu-primary__link:afte
     background-position: 50% 50%;
     height: 100%;
     position: absolute;
-    left: .5em;
+    left: 0;
     top: 0;
     width: 2em; }
 
 .btn-save--print:before {
-  background-image: url(../images/icons/icon-print.png); }
+  background-image: url(../images/icons/icon-print.svg); }
+.btn-save--print:focus:before {
+  background-image: url(../images/icons/icon-print-white.svg); }
 
 .btn-save--download:before {
-  background-image: url(../images/icons/icon-download.png); }
+  background-image: url(../images/icons/icon-download.svg); }
+.btn-save--download:focus:before {
+  background-image: url(../images/icons/icon-download-white.svg); }
 
-.btn-save--print, .btn-save--download {
-  display: block; }
+.btn-save--print,
+.btn-save--download {
+  display: block;
+  width: fit-content; }
 
 #guide_print_download_overlay {
   background-color: rgba(0, 0, 0, 0.5);
@@ -1735,7 +1742,6 @@ li.menu-primary__item.menu-primary__item--has-dropdown a.menu-primary__link:afte
 .nav-related {
   max-width: 20em; }
   .nav-related .nav-related__list ul a {
-    color: #4d4d4d;
     display: inline-block; }
 
 /* Search */
