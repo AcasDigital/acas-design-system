@@ -1,0 +1,53 @@
+<article class="details-page full">
+  {{#if listItems }} 
+
+    <div class="example-block">
+      <strong>For example:</strong>
+      <ul>
+      {{#each listItems}}
+        {{#if list-item}}
+        <li>
+          {{list-item.content}}
+        </li>
+        {{/if}}
+      {{/each}}
+      </ul>
+    </div>
+
+  {{/if}}
+
+  {{#if listItems }} 
+
+    <div class="example-block">
+      <strong>Example</strong>
+      <ul>
+      {{#each listItems}}
+        {{#if list-item}}
+        <li>
+          {{list-item.content}}
+        </li>
+        {{/if}}
+      {{/each}}
+      </ul>
+    </div>
+
+  {{/if}}
+
+  {{#if prose }} 
+
+    <div class="example-block">
+      <strong>For example:</strong>
+      <p>{{prose}}</p>
+    </div>
+
+  {{/if}}
+
+  {{#if prose }} 
+
+    <div class="example-block">
+      <strong>Example</strong>
+      <p>{{prose}}</p>
+    </div>
+
+  {{/if}}
+</article>
