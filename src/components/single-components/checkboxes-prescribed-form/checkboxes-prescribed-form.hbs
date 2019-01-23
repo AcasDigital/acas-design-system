@@ -1,0 +1,44 @@
+<div class="prescribed" style="padding: .5em;">
+  <fieldset id="{{fieldsetID}}" class="{{fieldsetClass}}">
+
+    <legend>
+      <span class="{{legendClass}}">
+        {{legendTitle}}
+      </span>
+    </legend>
+
+    <div class="fieldset-wrapper">
+
+      <span class="field-prefix">
+        {{#if description}}
+        <div class="description">
+          {{description}}
+        </div>
+        {{/if}}
+      </span>
+
+      <div id="{{optionContainerID}}" class="{{optionContainerClass}}">
+
+        {{#each options}}
+
+        <div class="{{option.option-container-class}}">
+    
+          <label for="{{option.option-id}}" class="{{option.option-label-class}}">
+
+            <input class="{{option.option-class}}" type="{{option.option-type}}" 
+            id="{{option.option-id}}" value="{{option.option-title}}">
+
+            <span>{{option.option-title}}</span>
+          
+          </label>
+
+        </div>
+
+        {{/each}}
+
+      </div>
+
+    </div>
+    
+  </fieldset>
+</div>
