@@ -1,0 +1,58 @@
+.eu-cookie-compliance-banner {
+  background-color: acas-color("teal-dark");
+  overflow: auto;
+
+  .eu-cookie-compliance-content {
+    @extend .container;
+    @extend %margin-vertical-4x;
+
+    color: acas-color("white");
+    font-style: normal;
+    max-width: 100%;
+  }
+
+  .eu-cookie-compliance-message {
+    @extend .col-xs-12;
+    @extend .col-sm-8;
+    max-width: 100%;
+    p {
+      @extend %margin-bottom-0x;
+      @extend .text-small;
+      display: inline-block;
+      font-family: $font-family-base;
+      vertical-align: middle;
+    }
+  }
+  
+  .eu-cookie-compliance-buttons {
+    @extend .col-xs-12;
+    @extend .col-sm-4;
+    @extend %margin-top-1x;
+
+    button {
+      @extend .text-small;
+      @extend %padding-2x;
+      
+      cursor: pointer;
+
+      background: acas-color("white");
+      border: 1px solid transparent;
+
+      color: acas-color("teal-dark");
+
+      font-family: $font-family-headers;
+
+      min-width: 8em;
+
+      position: relative;
+
+      text-align: center;
+
+      &:first-child {
+        @extend %margin-right-2x;
+      }
+      
+    }
+  }
+}
+
