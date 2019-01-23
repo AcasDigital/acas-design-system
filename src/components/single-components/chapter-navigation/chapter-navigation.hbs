@@ -1,0 +1,28 @@
+
+{{#if items}}
+
+<section id="block-inthissectionblock" class="block block-general block-in-this-section-block">
+  <div class="section__wrapper">
+
+    <h2>Chapters</h2>
+
+    <ul>
+    {{#each items}}
+      {{#if chapter-link}}
+      <li {{#if chapter-link.active}} class="active" {{/if}}>
+        {{#unless chapter-link.active}}
+        <a href="#">
+        {{/unless}}
+          {{chapter-link.title}}
+        {{#unless chapter-link.active}}
+        </a>
+        {{/unless}}
+      </li>
+      {{/if}}
+    {{/each}}
+    </ul>
+
+  </div>
+</section>
+
+{{/if}}
