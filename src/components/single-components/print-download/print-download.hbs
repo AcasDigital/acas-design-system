@@ -1,0 +1,17 @@
+{{#if items}}
+
+<div class="print-download-email">
+
+    {{#each items}}
+      {{#if link}}
+      <a class="btn-save {{link.class}}" href="#">
+        <span>{{link.title}}</span>
+      </a>
+      {{/if}}
+    {{/each}}
+    </ul>
+
+  </div>
+</section>
+
+{{/if}}
